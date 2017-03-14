@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/authorization-service/authorization-service.iml" filepath="$PROJECT_DIR$/authorization-service/authorization-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/check-out-service/check-out-service.iml" filepath="$PROJECT_DIR$/check-out-service/check-out-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client-gateway/client-gateway.iml" filepath="$PROJECT_DIR$/client-gateway/client-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dashboard/dashboard.iml" filepath="$PROJECT_DIR$/dashboard/dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" filepath="$PROJECT_DIR$/hystrix-dashboard/hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/microservices_with_spring_boot_cloud_security.iml" filepath="$PROJECT_DIR$/.idea/microservices_with_spring_boot_cloud_security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/product-catalogue-service/product-catalogue-service.iml" filepath="$PROJECT_DIR$/product-catalogue-service/product-catalogue-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-discovery/service-discovery.iml" filepath="$PROJECT_DIR$/service-discovery/service-discovery.iml" />
+      <module fileurl="file://$PROJECT_DIR$/swagger/swagger.iml" filepath="$PROJECT_DIR$/swagger/swagger.iml" />
+    </modules>
+  </component>
+</project>

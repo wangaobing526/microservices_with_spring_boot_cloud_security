@@ -1,0 +1,172 @@
+.claro {
+    background-color: #8694AE;
+    overflow: auto;
+	background-repeat: repeat-x;
+	background-repeat: repeat-y;
+    background-position: center top;
+    text-align: center;
+	display: block;
+	height: 100%;
+    width: 100%;
+	background-repeat: repeat;
+}
+
+.mianbox {
+	height: 100%;
+    width: 100%;
+}
+
+.wapper {
+	height: 100%;
+    width: 100%;
+}
+
+table {
+    white-space: normal;
+    line-height: normal;
+    font-weight: normal;
+    font-size: medium;
+    font-variant: normal;
+    font-style: normal;
+    color: -internal-quirk-inherit;
+    text-align: start;
+	display: table;
+    border-collapse: separate;
+    border-color: grey;
+}
+
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+
+form {
+	margin-bottom: 1em;
+    display: block;
+    margin-top: 0em;
+}
+
+td, th {
+    vertical-align: inherit;
+}
+
+.login_area1 {
+    background: url(./loginPage_01.jpg);
+    width: 635px;
+    height: 130px;
+}
+
+.login_area2 {
+    background: url(./loginPage_02.jpg);
+    width: 635px;
+    height: 82px;
+}
+
+.login_area3 {
+    background: url(./loginPage_03.jpg);
+    width: 309px;
+    height: 150px;
+}
+
+.loginContent {
+    text-align: center;
+    vertical-align: middle;
+    background: #e6ecfb;
+    width: 326px;
+}
+
+.login_area4 {
+    background: url(./loginPage_04.jpg);
+    width: 635px;
+    height: 82px;
+}
+
+.login_area5 {
+    background: url(./loginPage_05.jpg);
+    width: 635px;
+    height: 140px;
+}
+
+.inputTextBox {
+	background-color: #ffffff;
+	border-color: #b5bcc7;
+	webkit-transition-property: background-color, border;
+    -moz-transition-property: background-color, border;
+    transition-property: background-color, border;
+    -webkit-transition-duration: 0.35s;
+    -moz-transition-duration: 0.35s;
+    transition-duration: 0.35s;
+	color: #000000;
+    width: 15em;
+    vertical-align: middle;
+	background-position: left top;
+    background-repeat: no-repeat;
+	display: inline-block;
+	padding: 0;
+	margin: 0;
+	line-height: normal;
+    font: inherit;
+	border: 1px solid #b5bcc7;
+}
+
+.inputContainer {
+	margin: 0;
+    border: 0;
+    line-height: normal;
+    font: inherit;
+    color: inherit;
+}
+
+.inputInner {
+	color: #000000;
+	float: left;
+	border: 0 !important;
+    background-color: transparent !important;
+    width: 100% !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+	line-height: normal;
+    font: inherit;
+}
+
+input:not([type="image"]), textarea {
+    box-sizing: border-box;
+}
+
+.submitButton {
+	background: url(./loginBtn_up.jpg);
+	height: 35px;
+    width: 82px;
+}
+.submitButton:hover {
+	background: url(./loginBtn_over.jpg);
+}
+
+.getPwd {
+    display: block;
+    padding-left: 18px;
+    background: url(./icon_key.png) no-repeat left center;
+	font-size: 12px;
+    color: #2590B9;
+}
+
+a:hover {
+    color: #059;
+    text-decoration: none;
+}
+
+.uk-text-danger {
+    color: #659f13!important;
+    font-size: 12px;
+}
+
+.uk-text-success {
+    color: #659f13!important;
+	font-size: 12px;
+    display: none;
+}
+
+

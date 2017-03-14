@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="_csrf_parameter" content="_csrf" />
+    <meta name="_csrf_header" content="X-CSRF-TOKEN" />
+    <meta name="_csrf" content="" />
+    <title>注销</title>
+    <script  language="javascript"  src="/jquery-1.8.0.min.js"></script>
+    <script>
+        function zhuxiao() {
+            //注销bpm
+            $.ajax({
+                type: "GET",
+                xhrFields: {
+                    withCredentials: true
+                },
+                //url: "http://127.0.0.1:8081/dm-sdweb/TEST/getUser.do?action=GetUser",
+                url: "http://192.168.0.180:8080/cnnpbpm/web/logoutAction.action",
+                data: {},
+                dataType:"jsonp",
+                jsonp:"jsonpcallback",
+                success: function(msg){
+alert(msg);
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+
+                }
+            });
+
+            //认证中心注销
+            $.ajax({
+                type : "get",  //提交方式
+                url : "/uaa/logoutAuth",//路径
+                success : function(result) {//返回数据根据结果进行相应的处理
+                    console.log(result);
+                    if(result=="ok")alert("认证中心注销成功");
+                },
+                error :function (result) {
+                    if(result=="ok")alert("认证中心注销成功");
+                }
+            });
+
+            //注销网关
+            $.ajax({
+                type : "get",  //提交方式
+                url : "/logoutAction",//路径
+                success : function(result) {//返回数据根据结果进行相应的处理
+                console.log(result);
+                if(result=="ok")alert("网关注销成功");
+                    window.location.href="http://10.17.18.103/cnnpbpm/web/forward.jsp";
+                },
+                error :function (result) {
+                 if(result=="ok")alert("网关注销成功");
+                    window.location.href="http://10.17.18.103/cnnpbpm/web/forward.jsp";
+                }
+            });
+        }
+
+    </script>
+</head>
+<body>
+<button onclick="zhuxiao()"> 注销</button>
+<a href="http://192.168.0.180:8080/cnnpbpm/web/logoutAction.action">注销认证中心</a>
+<a href="http://master-pc:9189/uaa/logoutAuth">注销认证中心</a>
+<a href="http://master-pc:9189/uaa/logoutAuth">注销认证中心</a>
+<a href="/logoutAction">注销网关</a>
+</body>
+</html>
